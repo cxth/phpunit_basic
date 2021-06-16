@@ -1,0 +1,26 @@
+{
+    "name": "user/scrape",
+    "description": "File and URL scraper",
+    "require": {
+        "spatie/data-transfer-object": "^2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "authors": [
+        {
+            "name": "Cxian ROG",
+            "email": "christian.realubit@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "App\\": "app/"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Tests\\": "tests/"
+      }
+    }
+}
